@@ -20,7 +20,8 @@ Setting up Laravel in the local environment with Docker using the LEMP stack tha
 8. ```docker-compose run --rm npm run dev```
 9. ```docker-compose run --rm npm run build```
 10. ```docker-compose exec app php artisan key:generate```
-11. You can see the project on ```127.0.0.1:8080```
+11. ```docker-compose exec app php artisan migrate```
+12. You can see the project on ```127.0.0.1:8080```
 
 ## How to use MySQL as a database
 
